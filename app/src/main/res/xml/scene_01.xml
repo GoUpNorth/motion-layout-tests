@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:motion="http://schemas.android.com/apk/res-auto">
-
     <Transition
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@+id/start">
@@ -10,7 +9,7 @@
                 motion:framePosition="50"
                 motion:keyPositionType="pathRelative"
                 motion:motionTarget="@+id/title"
-                motion:percentY="0.25" />
+                motion:percentY="0.1" />
         </KeyFrameSet>
     </Transition>
 
@@ -42,7 +41,6 @@
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toBottomOf="@id/title" />
 
-
         <Constraint
             android:id="@+id/cancel_button"
             android:layout_width="wrap_content"
@@ -70,7 +68,6 @@
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toTopOf="parent" />
-
 
         <Constraint
             android:id="@+id/alpha2"
